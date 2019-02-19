@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title> Produit </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <!-- CSS Files -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body class="product-page">
+  <div class="wrapper">
+    <div class="page-header page-header-mini">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/Shop/veggie.jpeg') ;">
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div id="productCarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
+              <ol class="carousel-indicators">
+                <li data-target="#productCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#productCarousel" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block img-raised" src="./assets/img/Shop/coaster1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block img-raised" src="./assets/img//Shop/coaster2.jpg" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                  <i class="now-ui-icons arrows-1_minimal-left"></i>
+                </button>
+              </a>
+              <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                  <i class="now-ui-icons arrows-1_minimal-right"></i>
+                </button>
+              </a>
+            </div>
+            <p class="blockquote blockquote-primary">
+              "Moi j'aime pas les étrangers !" <br>
+              - Quelque pintes plus tard - <br>
+              "Remets-y la petite soeur étranger ! Je vous aime bien finalement !"
+              <br>
+              <br>
+              <small>Grocosto</small>
+            </p>
+          </div>
+          <div class="col-md-6 ml-auto mr-auto">
+            <h2 class="title"> Sous-verres Strubel & Peepoodo </h2>
+            <h5 class="category">Quelle beauté !</h5>
+            <h2 class="main-price">15 €</h2>
+            <div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse">
+              <div class="card card-plain">
+                <div class="card-header" role="tab" id="headingOne">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Description
+                    <i class="now-ui-icons arrows-1_minimal-down"></i>
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="card-body">
+                    <p>
+                      Petits mais puissants ! Les sous-verres sont un moyen audacieux d’apporter des idées créatives dans votre espace sans s’engager dans une grande œuvre d’art. Ajoutez-les à votre table à manger, égayez le salon et personnalisez votre prochaine fête.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-plain">
+                  <div class="card-header" role="tab" id="headingTwo">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Informations complémentaires
+                      <i class="now-ui-icons arrows-1_minimal-down"></i>
+                    </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-body">
+                      <p>Envie de faire une grosse soirée sans salir la nouvelle nappe de maman ? Peepoodo et son correspondant étranger Strubel sont là pour vous !</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-plain">
+                  <div class="card-header" role="tab" id="headingThree">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Détails
+                      <i class="now-ui-icons arrows-1_minimal-down"></i>
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="card-body">
+                      <ul>
+                        <li>Ensemble de 4 sous-verres</li>
+                        <li>Légers, fibres de bois haute densité</li>
+                        <li>Impression de haute qualité avec une finition satinée brillante</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-end">
+                <button class="btn btn-primary mr-3">Ajouter au panier &nbsp;<i class="now-ui-icons shopping_cart-simple"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  </html>
